@@ -1,54 +1,26 @@
-# React + TypeScript + Vite
+# Movie Search App 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based movie search application that allows users to search for movies, filter by type (movie, series, episode), and year. Built with **React**, **TypeScript**, **Tailwind CSS**, and **TanStack Query**.
 
-Currently, two official plugins are available:
+![Demo](https://via.placeholder.com/800x400.png?text=Movie+Search+App+Demo) <!-- Replace with an actual screenshot or GIF -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features ✨
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Search Movies**: Search for movies by title using the OMDB API.
+- **Filters**: Filter results by type (movie, series, episode) and year.
+- **Custom Dropdowns**: Reusable and customizable dropdown components for filters.
+- **Loaders**: Four different animated loaders for a smooth user experience.
+- **Responsive Design**: Fully responsive and mobile-friendly UI.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Technologies Used 🛠️
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: Adds static typing to JavaScript for better development experience.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **TanStack Query**: For fetching, caching, and managing server state.
+- **OMDB API**: Provides movie data for the application.
+- **Lucide Icons**: A beautiful and consistent icon library.

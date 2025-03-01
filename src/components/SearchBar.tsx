@@ -1,7 +1,13 @@
 import { FormEvent, useState } from "react";
 
-const SearchBar = ({ onSearch }: { onSearch: any }) => {
-  const [title, setTitle] = useState("");
+const SearchBar = ({
+  onSearch,
+  defaultValue = "",
+}: {
+  onSearch: (title: string) => void;
+  defaultValue: string;
+}) => {
+  const [title, setTitle] = useState(defaultValue);
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
+import { Movie } from "../types/types";
 
-const HomeMovieCard = ({ movie }: { movie: any }) => {
-  const fallbackPoster =
-    "https://via.placeholder.com/300x450?text=No+Poster+Available";
+const HomeMovieCard = ({ movie }: { movie: Movie }) => {
+  const fallbackPoster = "https://placehold.co/300x450";
 
   return (
     <Link
