@@ -24,3 +24,11 @@ A React-based movie search application that allows users to search for movies, f
 - **TanStack Query**: For fetching, caching, and managing server state.
 - **OMDB API**: Provides movie data for the application.
 - **Lucide Icons**: A beautiful and consistent icon library.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE). (Add a license file if you wish to use the MIT license, and update this line).

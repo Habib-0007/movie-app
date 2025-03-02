@@ -33,7 +33,7 @@ const MovieById = () => {
     <div className="min-h-screen bg-gray-100 p-4 sm:p-8">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
-          Movie Search App
+          Habib Movie App
         </h1>
 
         <div className="mt-8">
