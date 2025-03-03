@@ -2,7 +2,7 @@
 
 A sleek and responsive movie search application built with React and Vite, powered by the OMDB API. This project allows users to search for movies, view details, and explore film information with a clean user interface.
 
-![Demo](https://habib-movie-app.vercel.com/demo.jpg)
+![Demo](https://habib-movie-app.vercel.com/demo.png)
 
 ---
 
