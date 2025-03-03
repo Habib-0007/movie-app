@@ -1,18 +1,17 @@
-# Movie Search App 🎬
+# Habib Movie App 🎬
 
-A React-based movie search application that allows users to search for movies, filter by type (movie, series, episode), and year. Built with **React**, **TypeScript**, **Tailwind CSS**, and **TanStack Query**.
+A sleek and responsive movie search application built with React and Vite, powered by the OMDB API. This project allows users to search for movies, view details, and explore film information with a clean user interface.
 
-![Demo](https://via.placeholder.com/800x400.png?text=Movie+Search+App+Demo) <!-- Replace with an actual screenshot or GIF -->
+![Demo](https://habib-movie-app.vercel. com/demo.jpg)
 
 ---
 
-## Features ✨
+## 🎬 Features
 
-- **Search Movies**: Search for movies by title using the OMDB API.
-- **Filters**: Filter results by type (movie, series, episode) and year.
-- **Custom Dropdowns**: Reusable and customizable dropdown components for filters.
-- **Loaders**: Four different animated loaders for a smooth user experience.
-- **Responsive Design**: Fully responsive and mobile-friendly UI.
+- **Movie Search**: Find movies by title with instant results
+- **Detailed Movie Information**: View comprehensive details including plot, cast, ratings, and more
+- **Responsive Design**: Works beautifully on desktop, tablet, and mobile devices
+- **Fast Performance**: Built with Vite for lightning-fast development and production build times
 
 ---
 
@@ -23,12 +22,88 @@ A React-based movie search application that allows users to search for movies, f
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **TanStack Query**: For fetching, caching, and managing server state.
 - **OMDB API**: Provides movie data for the application.
-- **Lucide Icons**: A beautiful and consistent icon library.
 
-## Contributing
+## 🚀 Demo
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+Check out the live demo: [Habib Movie App](https://habib-movie-app.vercel.app)
 
-## License
+## 📋 Prerequisites
 
-This project is open source and available under the [MIT License](LICENSE). (Add a license file if you wish to use the MIT license, and update this line).
+- Node.js (v14.x or later)
+- npm or yarn
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/habib-0007/movie-app.git
+cd movie-app
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn
+```
+
+3. **Set up environment variables**
+
+Create a `.env` file in the root directory:
+
+```
+VITE_OMDB_API_KEY=your_api_key_here
+```
+
+> 📝 **Note:** You need to get your API key from [OMDB API](https://www.omdbapi.com/apikey.aspx)
+
+4. **Start the development server**
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+5. **Open your browser**
+
+Navigate to `http://localhost:5173`
+
+## 🚢 Deployment
+
+### Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+This will generate optimized files in the `dist` directory.
+
+### Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/habib-0007/movie-app)
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/habib-0007/movie-app))
+
+## 📊 API Usage
+
+This project uses the OMDb API (Open Movie Database), which allows:
+- 1,000 daily requests with the free tier
+- Search by movie title, IMDb ID
+- Full movie details including ratings, cast, and plot
+
+## 🤝 Contributing
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Made with ❤️ by [Habib Adebayo](https://github.com/habib-0007/)
